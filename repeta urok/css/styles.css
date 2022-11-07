@@ -1,0 +1,10 @@
+.test-link {
+    color: blue;
+}
+
+.test-link:hover {
+    color: #ff0000
+
+.test-link:active {
+    color: yellow;
+}
