@@ -1,10 +1,49 @@
-.test-link {
-    color: blue;
+.page {
+    background-color: #FFFFFF;
+    color: rgba(0, 0, 0, 0.8);
 }
 
-.test-link:hover {
-    color: #ff0000
-
-.test-link:active {
-    color: yellow;
+.logo {
+    color: #000000;
 }
+
+.list {
+    list-style: none;
+}
+
+/* SIte nav */
+
+.site-nav .link {
+    color:#18A0BF ;
+    }
+
+    .site-nav .link:hover, 
+    .site-nav.link:focus {
+        color: #000000;
+    }
+
+    /* Hero */
+
+     .hero-title {
+        color: #000000;
+    }
+     /* Section */
+
+    .section-title {
+        color: #000000;
+    }
+  
+     /* Features */
+     .feature-list {
+        color: #000000;
+     }
+
+     .feature-list .link {
+        color: #18A0BF;
+     }
+    
+/*#000000*/
+ /* rgba(0, 0, 0, 0.8);
+ /* #FFFFFF*/
+ /* #18A0BF */
+ /* #F5F5F5 */
