@@ -3,12 +3,11 @@
     color: #00f;
     border: 2px solid #00f;
 }
-[type] {
 
-}
 .link {
     text-decoration: none;
 }
+
 .list {
     list-style: none;
 }
