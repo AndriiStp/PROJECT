@@ -5,33 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    
+    
 <body class="page">
         <!--Header-->
        <header>
-    <nav>
+        
+    <nav class="container main-nav">
         <a href="./index.html" class="logo">
         <img src="./img/643319.webp" width="30" alt="Logo">
         photo
         </a>
         
     <ul class="site-nav list">
-        <li><a href="" class="link current">Features</a></li>
-        <li><a href="" class="link">Pricing</a></li>
-        <li><a href="./community.html" class="link">Community</a></li>
-        <li><a href="" class="link">Support</a></li>
+        <li class="item"><a href="" class="link current">Features</a></li>
+        <li class="item"><a href="" class="link">Pricing</a></li>
+        <li class="item"><a href="./community.html" class="link">Community</a></li>
+        <li class="item"><a href="" class="link">Support</a></li>
     </ul>
     <ul class="auth-nav list">
-        <li><a href="" class="button primary">Login</a></li>
-        <li><a href="" class="button secondary">Register</a></li>
+        <li class="item"><a href="" class="button secondary">Log in</a></li>
+        <li class="item"><a href="" class="button primary">Register</a></li>
     </ul>
 </nav>
-     
     </header>
+   
     <!--MAIN-->
     <main>
     <section class="hero">
@@ -39,49 +45,53 @@
         <a href="" class="button primary">Join Today</a>
     </section>
     <section class="section">
-        <h2 class="section-title">Snap photos and share like <br>never before</h2>
+        <div class="container">
+        <h2 class="section-title centered">Snap photos and share like <br>never before</h2>
         <ul class="feature-list list">
-            <li>
+            <li class="item">
                 <h3 class="title">Lorem, ipsum dolor.</h3>
                 <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, id.</p>
                 <a href="" class="button secondary">Learn more</a>
             </li>
-            <li>
+            <li class="item">
                 <h3 class="title">Lorem, ipsum.</h3>
                 <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, qui repellendus? Nostrum iste quam veniam!</p>
                 <a href="" class="button secondary">Learn more</a>
             </li>
-            <li>
+            <li class="item">
                 <h3 class="title">Lorem ipsum dolor sit.</h3>
                 <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam voluptatum, rerum a repellat perferendis nostrum ex iusto cum repudiandae velit.</p>
                 <a href="" class="button secondary">Learn more</a>
             </li>
-            <li>
+            <li class="item"
                 <h3 class="title">Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
                 <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit fugit mollitia fuga nemo. Inventore atque vel ipsa consequatur ratione aperiam maxime, aliquid dolorum!</p>
                 <a href="" class="button secondary">Learn more</a>
             </li>
         </ul>
+        </div>
      </section>
      <!-- Works-->
-     <section class="section">
-        <h2 class="section-title">Examples work</h2>
+     <section class="section no-padding">
+        <div class="container">
+        <h2 class="section-title centered">Examples work</h2>
         <ul class="work-list list">
-            <li>
+            <li class="item">
                 <img src="./img/placehold.png.jpg" alt="Photo1" width="750">
                 <h3 class="title">Lorem, ipsum.</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, debitis.</p>
             </li>
-            <li>
+            <li class="item">
                 <img src="./img/placehold.png.jpg" alt="Photo2" width="750">
                 <h3 class="title">Lorem ipsum dolor sit amet.</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus.</p>
             </li>
         </ul>
-            
+        </div>
      </section>
      <!--Clients-->
-     <section class="section">
+     <section class="section no-padding">
+        <div class="container">
         <h2 class="section-description">You're in good company</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit neque accusamus dolores aliquam sapiente sed.</p>
         <ul class="list">
@@ -111,8 +121,9 @@
             </li>
             
         </ul>
+        </div>
      </section>
-     <section >
+     <section class="section no-padding ">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem saepe natus odio odit ea illo in sunt hic iure iusto.</p>
         <div>
         <a href="" class="button primary">Join Today</a>
